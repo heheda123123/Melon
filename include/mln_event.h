@@ -13,17 +13,14 @@
 #else
 #if defined(WIN32)
 #include <winsock2.h>
+#include <winsock2.h>
 #else
 #include <sys/select.h>
 #endif
 #endif
 #include <sys/types.h>
 #include <sys/time.h>
-#if defined(WIN32)
-#include <windows.h>
-#else
 #include <unistd.h>
-#endif
 #include <signal.h>
 #include "mln_rbtree.h"
 #include "mln_fheap.h"

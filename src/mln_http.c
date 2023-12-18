@@ -4,11 +4,7 @@
  */
 
 #include <stdio.h>
-#if defined(WIN32)
-#include <windows.h>
-#else
 #include <unistd.h>
-#endif
 #include <ctype.h>
 #include "mln_types.h"
 #include "mln_http.h"

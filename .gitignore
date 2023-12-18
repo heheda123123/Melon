@@ -8,3 +8,4 @@ conf/melon.conf
 .vscode/
 .xmake/
 build/
+.github/
